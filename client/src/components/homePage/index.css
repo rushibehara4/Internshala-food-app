@@ -1,0 +1,95 @@
+.home-container {
+    background-image: url("vecteezy_food-background-food-menu-backround_14533892\ \(1\).jpg");
+    background-size: cover;
+    height: 100vh;
+    padding-top: 30px;
+}
+
+.home-card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: right;
+    height: 80vh;
+    margin-left: 50px;
+    padding: 20px;
+    margin-right: 100px;
+    color: aliceblue;
+}
+
+.home-user-info {
+    color: orange;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.home-span-username {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.home-title {
+    font-size: 30px;
+    font-family: monospace;
+    line-height: 35px;
+    letter-spacing: -1px;
+    margin-bottom: 10px;
+    font-size: 23px;
+}
+
+.home-title-span-2 {
+    font-size: 25px;
+    margin: 4px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.home-para {
+    color: orange;
+    font-family: "Roboto";
+}
+
+.home-button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-top: 30px;
+}
+
+.home-order-button {
+    background-color: transparent;
+    color: aliceblue;
+    border: 1px solid orange;
+    cursor: pointer;
+    height: 40px;
+    border-radius: 20px;
+    width: 120px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.home-order-button:hover {
+    background-color: orange;
+    color: black;
+    transition: all .8s ease-in-out;
+}
+
+.home-menu-button {
+    background-color: transparent;
+    color: orange;
+    border: 1px solid aliceblue;
+    font-size: 14px;
+    cursor: pointer;
+    height: 40px;
+    border-radius: 20px;
+    width: 120px;
+    text-align: center;
+}
+
+.home-menu-button:hover {
+    color: black;
+    background-color: white;
+    transition: all .8s ease-in-out;
+}

@@ -1,0 +1,125 @@
+.dinner-menu-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.menu-search-input {
+  padding: 15px;
+  border-radius: 10px;
+  width: 350px;
+  height: 30px;
+  border-radius: 20px;
+  font-size: 18px;
+  transition: border-color 0.3s ease, color 0.3s ease;
+}
+
+.menu-search-input:focus {
+  border-color: #1565c0;
+  color: #1565c0;
+}
+
+/* Menu Items Styles */
+
+.dinner-menu-items {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 30px;
+}
+
+.dinner-menu-item {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.dinner-menu-item:hover {
+  transform: translateY(-5px);
+}
+
+.dinner-menu-item img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.dinner-menu-item-details {
+  margin-top: 20px;
+}
+
+.dinner-menu-item-details h3 {
+  font-size: 24px;
+  color: #333;
+  margin: 0;
+}
+
+.dinner-menu-item-details p {
+  font-size: 18px;
+  color: #666;
+}
+
+.dinner-menu-item-actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.dinner-menu-item-actions p {
+  font-size: 20px;
+  color: #333;
+}
+
+.dinner-order-button {
+  padding: 15px 30px;
+  border: none;
+  background-color: #ff5722;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.dinner-order-button:hover {
+  background-color: #f4511e;
+}
+
+/* Responsive Styles */
+
+@media screen and (max-width: 768px) {
+  .menu-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .menu-links {
+    margin-top: 20px;
+  }
+
+  .menu-search-input {
+    margin-top: 30px;
+  }
+
+  .dinner-menu-item {
+    padding: 20px;
+  }
+
+  .dinner-menu-item-details h3 {
+    font-size: 20px;
+  }
+
+  .dinner-menu-item-details p {
+    font-size: 16px;
+  }
+
+  .dinner-menu-item-actions p {
+    font-size: 18px;
+  }
+
+  .dinner-order-button {
+    padding: 12px 24px;
+    font-size: 16px;
+  }
+}

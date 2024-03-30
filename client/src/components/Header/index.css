@@ -1,0 +1,86 @@
+.header-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: transparent;
+    margin-left: 40vw;
+}
+
+.header-name-container {
+    display: flex;
+    align-items: center;
+}
+
+.header-logo-image {
+    height: 70px;
+    width: 70px;
+    border-radius: 50px;
+}
+
+.header-list-container {
+    display: flex;
+}
+
+.header-list-element {
+    margin-left: 20px;
+    margin-right: 20px;
+    list-style-type: none;
+    font-size: 18px;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.header-search-input {
+    height: 30px;
+    width: 250px;
+    padding-left: 20px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+}
+
+.header-button-container {
+    display: flex;
+    align-items: center;
+}
+
+.header-user-profile {
+    margin-right: 30px;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.header-logout-button {
+    height: 40px;
+    width: 120px;
+    padding: 10px;
+    background-color: transparent;
+    color: rgb(0, 247, 255);
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 20px;
+    border: 1px solid cyan;
+    font-size: 15px;
+    outline: none;
+}
+
+.header-logout-button:hover {
+    background-color: cyan;
+    color: black;
+    font-weight: bold;
+    transition: all .9s ease-in-out;
+}
+
+.header-link-element {
+    text-decoration: none;
+}
+
+.header-list-element:hover {
+    transition: all .9s  ease-in-out;
+    color: orange;
+}

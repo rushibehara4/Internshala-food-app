@@ -1,0 +1,32 @@
+.about-container {
+    background-image: url("vecteezy_photo-of-three-clocks-on-a-table-with-a-plant-representing_26857744.jpg");
+    background-size: cover;
+    height: 100vh;
+    text-align: right;
+    padding: 30px;
+}
+
+.about-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    text-align: right;
+    margin-right: 20px;
+    padding-top: 30vh;
+}
+
+.about-heading {
+    color: rgb(251, 251, 251);
+    margin-bottom: 10px;
+}
+
+.about-para {
+    color: rgb(234, 215, 16);
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.about-description {
+    color: rgb(167, 169, 171);
+}

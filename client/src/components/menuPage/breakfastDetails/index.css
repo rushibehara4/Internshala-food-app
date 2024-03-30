@@ -1,0 +1,133 @@
+.initial-breakfast-menu {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    width: 100%;
+}
+
+.initial-breakfast-items {
+    gap: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin-top: 30px;
+}
+
+.initial-breakfast-item {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.initial-breakfast-item:hover {
+    transform: translateY(-5px);
+    transition: all 0.9s ease-in-out;
+    background-color: #e2e2e1;
+}
+
+.initial-breakfast-item img {
+    width: 400px;
+    height: 200px;
+    object-fit: contain;
+}
+
+.initial-breakfast-item-details {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.initial-breakfast-item-details h3 {
+    margin-top: 0;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.initial-breakfast-item-details p {
+    margin: 5px 0;
+    font-size: 1rem;
+    color: #666;
+}
+
+.order-now-button {
+    height: 30px;
+    width: 90px;
+    padding: 10px;
+    display: none;
+}
+
+.breakfast-button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.breakfast-button {
+    height: 30px;
+    width: 90px;
+    background-color: transparent;
+    border: solid 2px #4CAF50;
+    cursor: pointer;
+    text-align: center;
+    line-height: 30px;
+    font-weight: bold;
+    color: #4CAF50;
+    border-radius: 20px;
+    font-size: 12px;
+}
+
+.breakfast-button:hover {
+    transition: all 0.9s ease-in-out;
+    background-color: #4CAF50;
+    color: #ffffff;
+}
+
+.breakfast-search-continaer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.breakfast-search-input {
+    height: 30px;
+    width: 350px;
+    padding-left: 20px;
+    border: 1px solid #333;
+    outline: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    margin-right: 10px;
+    border-radius: 20px;
+}
+
+.link-container-menu-items {
+    display: flex;
+}
+
+.menu-item-link-pages {
+    margin: 10px;
+}
+
+@media (max-width: 768px) {
+    .initial-breakfast-items {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    }
+
+    .initial-breakfast-item img {
+        height: 150px;
+    }
+}

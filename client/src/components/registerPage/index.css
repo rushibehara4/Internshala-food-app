@@ -1,0 +1,159 @@
+.register-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-size: cover;
+    background-image: url("vegetables-set-left-black-slate.jpg");
+    height: 100vh;
+}
+
+.register-heading {
+    margin-left: 230px;
+}
+
+
+.register-form-container {
+    background-color: rgba(240, 240, 240, 0.2);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 30px;
+    width: fit-content;
+    margin-left: 50px;
+    margin-top: 40px;
+}
+
+.register-input-container  {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.register-label-element {
+    font-size: 14px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.register-input-element {
+    background-color: rgba(25, 16, 16, 0.5);
+    border: none;
+    outline: none;
+    height: 35px;
+    width: 500px;
+    border-radius: 30px;
+    margin-bottom: 10px;
+    padding: 10px;
+    padding-left: 20px;
+    color: aliceblue;
+}
+
+.register-input-element::placeholder {
+    color: rgb(168, 162, 162);
+}
+
+.register-button {
+    height: 40px;
+    width: 150px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.register-account-description {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.register-login-content-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-bottom: 20px;
+    padding-right: 20px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.register-button-container {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.register-login-element {
+    font-weight: bold;
+    color: rgb(11, 171, 171);
+}
+
+.register-error-message {
+    color: rgb(251, 0, 0);
+    font-weight: 600;
+    font-size: 13px;
+}
+
+@media screen and (max-width:500px) {
+    .register-container {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-size: cover;
+    }
+    .register-heading {
+        margin: 0px;
+        font-size: 20px;
+        text-align: center;
+    }
+    .register-form-container {
+        padding: 20px;
+        margin: 0;
+        margin-top: 30px;
+    }
+    .register-input-container {
+        margin-bottom: 10px;
+    }
+    .register-label-element {
+        font-size: 10px;
+    }
+    .register-input-element {
+        width: 250px;
+    }
+    .register-login-content-container {
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-end;
+        width: 100%;
+        margin-bottom: 20px;
+        padding-right: 10px;
+    }
+    .register-account-description {
+        font-size: 10px;
+    }
+    .register-button-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .register-button {
+        width: 100px;
+        height: 30px;
+        font-size: 10px;
+    }
+}

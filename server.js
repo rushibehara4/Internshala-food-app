@@ -7,6 +7,8 @@ const middleware = require("./middleware")
 
 const app = express();
 
+const PORT = process.env.PORT || 5001;
+
 app.use(express.json());
 
 app.use(cors({origin : "*"}))
@@ -78,6 +80,6 @@ app.get("/",middleware, async(request, response) => {
     }
 })
 
-app.listen(5001, () => {
-  console.log("Server is running at http://localhost:5001");
+app.listen(PORT, 'localhost', () => {
+  console.log(`Server is listening on http://localhost:${PORT}`);
 });
